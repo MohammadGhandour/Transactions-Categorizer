@@ -1,0 +1,19 @@
+{
+  "name": "transactions-categorizer",
+  "version": "1.0.0",
+  "description": "Algorithm to categorize financial transactions based on name, amount and type",
+  "main": "src/categorizer.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/",
+    "start": "node src/categorizer.js"
+  },
+  "keywords": ["transactions", "categorization", "finance", "algorithm"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {}
+}
